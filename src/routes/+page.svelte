@@ -127,10 +127,16 @@
 
 	button {
 		border: none;
-		font-size: 1rem;
+		font-size: 2rem;
 		color: white;
 		font-weight: 900;
 		cursor: pointer;
+	}
+
+	@media screen and (max-width: 600px) {
+		button {
+			font-size: 1.25rem;
+		}
 	}
 
 	button:hover {
